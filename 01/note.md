@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/DEDSIC/01
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-30 16:42:8
-Modified: 	2019-04-30 18:06:52
+Modified: 	2019-04-30 20:30:35
 -----
 Copyright (c) 2019 shumez
 -->
@@ -58,6 +58,13 @@ when \( k = 0 \), constant solution \( x(t) \equiv 0 \)
     \[ k e^{at} = \text{constant} \]
 * if \( a < 0 \),
     \[ \lim_{t \rightarrow \infty} k e^{at} = 0 \]
+
+* **source**: away from it
+* **sink**: toward it
+
+**phase plane**
+
+**bifurcatio** at \( a = 0 \)
 
 
 ##
