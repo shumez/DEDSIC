@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/DEDSIC/01
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-30 16:42:8
-Modified: 	2019-04-30 20:38:41
+Modified: 	2019-04-30 20:55:36
 -----
 Copyright (c) 2019 shumez
 -->
@@ -13,7 +13,8 @@ Copyright (c) 2019 shumez
 ## ToC
 
 * [01.01. The Simplest Example](#0101_the_simplest_example)
-    [](#)
+* [01.02. The Logistic Population Model](#0102_the_logistic_population_model)
+
 
 
 ## 01.01. The Simplest Example
@@ -65,6 +66,19 @@ when \( k = 0 \), constant solution \( x(t) \equiv 0 \)
 **phase plane**
 
 **bifurcation** at \( a = 0 \)
+
+
+## 01.02. The Logistic Population Model
+
+\( x' = ax \) when \( a > 0 \)
+
+**Logistic population growth model**
+
+\[ x' = ax (1 - \frac{x}{N}) \]
+
+\( a \), \( N \): positive param
+
+\[ x' = f_a(x) = ax(1 - x) \]
 
 
 ##
