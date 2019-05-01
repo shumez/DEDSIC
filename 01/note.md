@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/DEDSIC/01
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-30 16:42:8
-Modified: 	2019-05-01 13:54:44
+Modified: 	2019-05-01 14:24:14
 -----
 Copyright (c) 2019 shumez
 -->
@@ -60,7 +60,7 @@ when \( k = 0 \), constant solution \( x(t) \equiv 0 \)
 * if \( a < 0 \),
     \[ \lim_{t \rightarrow \infty} k e^{at} = 0 \]
 
-[![Fig.1.1][fig_01_01]][fig_01_01]
+[![Fig.1.1][fig0101]][fig0101]
 
 * **source**: away from it
 * **sink**: toward it
@@ -82,13 +82,16 @@ when \( k = 0 \), constant solution \( x(t) \equiv 0 \)
 
 \[ x' = f_a(x) = ax(1 - x) \]
 
+[![Fig.1.3][fig0103]][fig0103]
+
 
 ##
 
 <!-- ref -->
 
 <!-- fig -->
-[fig_01_01]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0101.png
+[fig0101]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0101.png
+[fig0103]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0103.png
 
 <!-- https://raw.githubusercontent.com/shumez/DEDSIC/master/01/ -->
 
