@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/DEDSIC/01
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-30 16:42:8
-Modified: 	2019-05-01 14:24:14
+Modified: 	2019-05-01 20:33:8
 -----
 Copyright (c) 2019 shumez
 -->
@@ -82,7 +82,34 @@ when \( k = 0 \), constant solution \( x(t) \equiv 0 \)
 
 \[ x' = f_a(x) = ax(1 - x) \]
 
+**first order**
+
+**autnomous**: depends on \( x \) alone not \( t \)
+
+\[ 
+    \begin{align*}
+        \int{\frac{dx}{x(1-x)}} &= \int{a} \, dt \\
+        \int{\Big( \frac{1}{x} + \frac{1}{1-x} \Big)} \, dx &= \int{a} \, dt \\
+        \log{x} - \log{(1-x)} &= at \\
+        \log{\frac{x}{1-x}} &= at \\
+        \frac{x}{1-x} &= e^{at} \\
+        (1 + e^{at}) x &= e^{at} \\
+        x &= \frac{e^{at}}{1 + e^{at}} \\
+        x(t) &= \frac{K e^{at}}{1 + K e^{at}}
+    \end{align*}
+\]
+
+\( t = 0 \), 
+
+\[ K = \frac{x(0)}{1 - x(0)} \]
+
+rewrite
+
+\[ x(t) = \frac{x(0) e^{at}}{1 - x(0) + x(0) e^{at}} \]
+
 [![Fig.1.3][fig0103]][fig0103]
+
+**slope field**
 
 
 ##
