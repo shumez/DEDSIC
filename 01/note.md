@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/DEDSIC/01
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-30 16:42:8
-Modified: 	2019-05-07 17:40:44
+Modified: 	2019-05-07 18:28:56
 -----
 Copyright (c) 2019 shumez
 -->
@@ -14,6 +14,7 @@ Copyright (c) 2019 shumez
 
 * [01.01. The Simplest Example](#0101_the_simplest_example)
 * [01.02. The Logistic Population Model](#0102_the_logistic_population_model)
+* [01.03. Constant Harversting and Bifurcations](#0103_constant_harversting_and_bifurcations)
 
 
 
@@ -117,6 +118,29 @@ rewrite
 
 [![Figure.1.5][fig0105]][fig0105]
 
+
+## 01.03. Constant Harversting and Bifurcations
+
+[![Fig.1.7][fig0107]][fig0107]
+
+\(a=1\), constant rate \(h\)
+
+\[ x' = x(1 - x) - h \]
+
+where \(h ≥ 0\)
+
+\[ f_h(x) = x(1 - x) - h \]
+
+
+###### Example 
+
+[![Fig.1.8][fig0108]][fig0108]
+
+\[ x' = g_a(x) = x^2 - ax = x(x - a) \]
+
+
+
+
 ##
 
 <!-- ref -->
@@ -125,6 +149,8 @@ rewrite
 [fig0101]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0101.png
 [fig0103]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0103.png
 [fig0105]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0105.png
+[fig0107]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0107.png
+[fig0108]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0108.png
 
 <!-- https://raw.githubusercontent.com/shumez/DEDSIC/master/01/ -->
 
