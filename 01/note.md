@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/DEDSIC/01
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-30 16:42:8
-Modified: 	2019-05-01 20:33:8
+Modified: 	2019-05-07 11:48:15
 -----
 Copyright (c) 2019 shumez
 -->
@@ -122,6 +122,6 @@ rewrite
 
 <!-- https://raw.githubusercontent.com/shumez/DEDSIC/master/01/ -->
 
-<!--<style type="text/css">
+<style type="text/css">
 	img{width: 51%; float: right;}
-</style>-->
+</style>
