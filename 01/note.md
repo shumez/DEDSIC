@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/DEDSIC/01
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-30 16:42:8
-Modified: 	2019-05-07 11:48:15
+Modified: 	2019-05-07 17:40:44
 -----
 Copyright (c) 2019 shumez
 -->
@@ -111,6 +111,11 @@ rewrite
 
 **slope field**
 
+###### Exmaple 
+
+\[ x' = g(x) = x - x^3 \]
+
+[![Figure.1.5][fig0105]][fig0105]
 
 ##
 
@@ -119,6 +124,7 @@ rewrite
 <!-- fig -->
 [fig0101]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0101.png
 [fig0103]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0103.png
+[fig0105]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0105.png
 
 <!-- https://raw.githubusercontent.com/shumez/DEDSIC/master/01/ -->
 
