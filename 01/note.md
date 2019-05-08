@@ -3,7 +3,7 @@ Filename: 	note.md
 Project: 	/Users/shume/Developer/DEDSIC/01
 Author: 	shumez <https://github.com/shumez>
 Created: 	2019-04-30 16:42:8
-Modified: 	2019-05-07 18:28:56
+Modified: 	2019-05-08 20:45:14
 -----
 Copyright (c) 2019 shumez
 -->
@@ -15,6 +15,7 @@ Copyright (c) 2019 shumez
 * [01.01. The Simplest Example](#0101_the_simplest_example)
 * [01.02. The Logistic Population Model](#0102_the_logistic_population_model)
 * [01.03. Constant Harversting and Bifurcations](#0103_constant_harversting_and_bifurcations)
+* [01.04. Periodic Harvesting and Periodic Solutions](#0104_periodic_harvesting_and_periodic_solutions)
 
 
 
@@ -139,6 +140,15 @@ where \(h ≥ 0\)
 \[ x' = g_a(x) = x^2 - ax = x(x - a) \]
 
 
+## 01.04. Periodic Harvesting and Periodic Solutions
+
+[![Fig.1.9][fig0109]][fig0109]
+
+population is harvested at a periodic rate 
+
+\[ x' = f(t,x) = ax(1 - x) - h(1 + \sin{(2\pi t)}) \]
+
+\(a\), \(h\) pos param
 
 
 ##
@@ -151,6 +161,7 @@ where \(h ≥ 0\)
 [fig0105]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0105.png
 [fig0107]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0107.png
 [fig0108]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0108.png
+[fig0109]: https://raw.githubusercontent.com/shumez/DEDSIC/master/01/fig/fig0109.png
 
 <!-- https://raw.githubusercontent.com/shumez/DEDSIC/master/01/ -->
 
